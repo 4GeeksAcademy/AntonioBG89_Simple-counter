@@ -10,10 +10,7 @@ import Home from "./component/Home.js";
 
 //render your react application
 
-setInterval(() => {
-    contador();
-    ReactDOM.createRoot(document.getElementById('app')).render(<Home />);
-}, 1000)
+ReactDOM.createRoot(document.getElementById('app')).render(<Home />);
 
 
 
